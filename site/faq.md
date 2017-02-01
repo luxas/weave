@@ -74,9 +74,7 @@ For more information on this command, see [Using Fast Datapath](/site/using-weav
 
 **Q: Does encryption work with fastdp?**
 
-Encryption does not work with fast datapath. If you enable encryption using the `--password` option to launch Weave (or you use the `WEAVE_PASSWORD` environment variable), fast datapath will by default be disabled. 
-
-You can however have a mixture of fast datapath connections over trusted links, as well as, encrypted connections over untrusted links.
+Yes, 1.9 version of Weave Net added the encryption feature to fastdp.
 
 See [Using Fast Datapath](/site/using-weave/fastdp.md) for more information.
 
